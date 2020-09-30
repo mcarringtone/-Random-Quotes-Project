@@ -1,0 +1,52 @@
+*{
+  outline:none;
+}
+
+body{
+  background: #ced0ce;
+  min-height: 100vh;
+  text-align: center;
+  padding: 100px;
+}
+
+.container {
+
+  background-color: white;
+  width:80vw;
+  padding: 40px;
+  height: 80vh;
+  border-left: 3px solid #f15025;
+}
+
+.quote-text{
+  min-height: 20vh;
+}
+
+.container h1 {
+  font-size: 50px;
+  text-align: left;
+  font-family:Patua One;
+}
+
+.container p {
+  text-transform: capitalize;
+  text-align: right;
+  color:#ced0ce;
+  font-style:italic;
+  font-size:30px;
+}
+
+#btn {
+margin-top: 30px;
+font-size:25px;
+padding: 10px 20px;
+background-color:#191716;
+color: #f15025;
+text-transform: uppercase;
+}
+
+#btn:hover {
+  color:#191716;
+  background-color: #f15025;
+  border: none;
+}
